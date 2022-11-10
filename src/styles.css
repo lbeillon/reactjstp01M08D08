@@ -2,3 +2,12 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.pure-material-button{
+  color: white;
+  background-color: red;
+}
+
+.input{
+  color : black;
+}
