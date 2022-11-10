@@ -5,6 +5,7 @@ import CustomButton from "./CustomButton";
 import TextInput from "./TextInput";
 import Button from "@material-ui/core/Button";
 import DisablableButton from "./DisablableButton";
+import TextField from "@material-ui/core/TextField"
 
 const App = () => {
   return (
@@ -39,6 +40,11 @@ const App = () => {
       <br />
       <DisablableButton text="Click to disable button 3"/>
       <br />
+      <br />
+      <TextField id="outlined-basic" label="Nom" variant="outlined" />
+      <br />
+      <br />
+      <TextField id="outlined-basic" label="Prénom" variant="outlined" />
     </div>
   );
 };
